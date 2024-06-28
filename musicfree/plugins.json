@@ -1,0 +1,41 @@
+{
+    "plugins": [{
+        "name": "TencentMusic",
+<<<<<<< HEAD
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/dist/qq/index.js",
+        "version": "0.0.3"
+    }, {
+        "name": "NeteaseCloudMusic",
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/dist/wy/index.js",
+        "version": "0.0.3"
+    }, {
+        "name": "MiguMusic",
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/dist/mg/index.js",
+        "version": "0.0.3"
+    }, {
+        "name": "KugouMusic",
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/dist/kg/index.js",
+        "version": "0.0.3"
+    }, {
+        "name": "KuwoMusic",
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/dist/kw/index.js",
+        "version": "0.0.3"
+=======
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/qq/index.js",
+        "version": "0.0.2"
+    }, {
+        "name": "NeteaseCloudMusic",
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/wy/index.js",
+        "version": "0.0.2"
+    }, {
+        "name": "MiguMusic",
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/mg/index.js",
+        "version": "0.0.2"
+    }, {
+        "name": "KugouMusic",
+        "url": "https://gitee.com/ikun0014/musicfree/raw/master/kg/index.js",
+        "version": "0.0.2"
+>>>>>>> 452316b03dc16d2c11c610c276f70c1c8785fe54
+    }
+]
+}
