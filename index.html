@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	body{
+		background: url(Microsoft_Nostalgic_Windows_Wallpaper_4k.jpg) no-repeat center center fixed;
+                /*兼容浏览器版本*/
+                -webkit-background-size: cover;
+                -o-background-size: cover;                
+                background-size: cover;
+	}
+	</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ikun公益音源</title>
+    <style>
+        .black-link {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function() {{
+            setInterval(function() {{
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", window.location.href, true);
+
+                xhr.onreadystatechange = function() {{
+                    console.log(xhr.readyState);
+                    if (xhr.readyState == 4 && xhr.status == 200) {{
+                        console.log(xhr.responseText);
+                        var head = document.querySelector("head");
+                        var nohead = xhr.responseText.replace(xhr.responseText.match(/<head>(.*?)<\/head>/s)[1], "");
+                        var bodyText = nohead.match(/<body>(.*?)<\/body>/s)[1];
+                        var body = document.querySelector("body");
+                        body.innerHTML = bodyText;
+                    }}
+                }};
+                xhr.send();
+            }}, 1000);
+        }}
+    </script>
+</head>
+<body>
+    <h1 align="center">ikun公益音源</h1>      
+    <h1 align="center">介绍</h1>
+    <div align="center">
+        <p>这是什么: LX Music公益音源（兼容MusicFree）</p>
+        <a href="https://github.com/ikunshare/ikun-public-source" class="black-link">Github<br></a>
+        <a href="https://ikunruku.lanzouo.com/b007so8e7a" class="black-link">LX Music Mod下载地址（密码lxmusicmod）<br></a>
+        <a href="http://110.42.111.49:1314/script" class="black-link">音源脚本下载地址<br></a>
+        <a href="https://gitee.com/ikun0014/musicfree/raw/master/plugins.json" class="black-link">MusicFree订阅链接<br></a>
+        <p>特别鸣谢: @class_as&@梓澄qwq</p>
+    </div>
+</body>
+</html>
